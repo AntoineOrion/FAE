@@ -22,8 +22,13 @@
 .sf-menu ul {
     position: absolute;
     top: -999em;
-    background: #fff;
+    background: rgba(255,255,255,.07);
 }
+
+ul.submenu-container.clearfix.first-in-line-xs li a {
+    color: #353333 !important;
+}
+
 @media (max-width: 767px) {
     .sf-menu ul {
         top:0;
@@ -35,7 +40,7 @@
     text-transform: uppercase;
     color: #484848;
     display: block;
-    padding: 17px 20px;
+    padding: 12px 20px;
 }
 .sf-menu .sf-sub-indicator {
     display:none;
@@ -50,7 +55,6 @@
 .sf-menu > li {
     float: left;
     position: relative;
-    border-right: 1px solid #eadbdb;
 }
 .sf-menu a {
     display: block;
@@ -95,7 +99,6 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 .sf-menu a, .sf-menu a:visited {
     color: rgba(0, 0, 0, 0.65);
     white-space:nowrap;
-    text-shadow: 1px 1px 0px #fff;
 }
 .sf-menu li li {
     background: rgba(246, 246, 246, 0.9);
@@ -104,7 +107,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
     background: rgba(246, 246, 246, 0.9);
 }
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(255,255,255,.25);
 }
 .sf-menu ul li:hover, .sf-menu ul li.sfHover, .sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active {
     background: rgba(255, 255, 255, 0.98);

@@ -8,6 +8,10 @@ div#_desktop_top_menu {
     background: #fff;
 }
 
+div#_desktop_logo {
+    margin-top: -10px;
+}
+
 ul#top-menu {
     display: flex;
     justify-content: center;
@@ -98,9 +102,22 @@ div#_desktop_top_menu li.category>a.dropdown-item {
     padding-bottom: 14px;
 }
 #header .header-nav .right-nav {
-    padding-top: 14px;
+    padding-top: 25px;
     padding-bottom: 14px;
 }
+
+div#_desktop_user_info .user-info a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+div#_desktop_user_info .user-info a:hover {
+    background-color: rgba(255,255,255,.25);
+    color: #ffffff !important;
+}
+
 #_desktop_language_selector,
 #_desktop_currency_selector {
     position: absolute;
@@ -129,23 +146,14 @@ div#_desktop_top_menu li.category>a.dropdown-item {
     padding: 4px 10px;
     font-size: 13px;
 }
-#header .header-nav .right-nav .user-info .material-icons {
-    display: none;
-}
+
 #header .header-nav .right-nav .user-info,
 #header .header-nav .right-nav #contact-link {
     margin: 0;
     padding-left: 15px;
     letter-spacing: 0.5px;
 }
-#header .header-nav .right-nav .user-info > a:active,
-#header .header-nav .right-nav .user-info > a:focus,
-#header .header-nav .right-nav .user-info > a:visited,
-#header .header-nav .right-nav #contact-link > a:active,
-#header .header-nav .right-nav #contact-link > a:visited,
-#header .header-nav .right-nav #contact-link > a:focus {
-    color: #333333;
-}
+
 #header .header-nav .right-nav .user-info > a:hover,
 #header .header-nav .right-nav #contact-link > a:hover {
     color: #e00521;
@@ -168,7 +176,7 @@ div#_desktop_top_menu li.category>a.dropdown-item {
     padding-bottom: 15px;
 }
 #header a:hover {
-    color: #e00521;
+    color: #ffffff;
 }
 .search-widget form button[type="submit"] .search:hover,
 .search-widget form input[type="text"]:focus + button .search {
