@@ -32,7 +32,7 @@ class Ns_favoriteProducts extends Module
 				|| !$this->registerHook('extraLeft')
 				|| !$this->registerHook('displayReassurance') 
                 || !$this->registerHook('displayAfterProductThumbs')  
-                || !$this->registerHook('displayProductAdditionalInfo') 
+				|| !$this->registerHook('displayProductAdditionalInfo')  
 				|| !$this->registerHook('displayHeader'))
 					return false;
 
@@ -109,7 +109,6 @@ class Ns_favoriteProducts extends Module
 		$this->context->controller->addJS($this->_path.'favoriteproducts.js');
 		return $this->display(__FILE__, 'favoriteproducts-header.tpl');
 	}
-	
 	
 	public function hookDisplayAfterProductThumbs($params)
 	{    

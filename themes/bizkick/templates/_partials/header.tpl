@@ -48,6 +48,11 @@
                         {hook h='displayNav2'}
                     </div>
                 </div>
+                <div class="sb_content_header_nav">
+                    <div class="col-md-10 search_bar_nav">
+                        {hook h='displayNav3'}
+                    </div>
+                </div>
                 <div class="hidden-md-up text-sm-center mobile">
                     <div class="float-xs-left" id="menu-icon">
                         <i class="material-icons d-inline">&#xE5D2;</i>

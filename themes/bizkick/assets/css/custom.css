@@ -227,6 +227,16 @@ div#_desktop_user_info .user-info a:hover {
 
 #search_widget form input[type='text'] {
     border-radius: 5px;
+    width: 100%;
+}
+
+#search_widget i.material-icons.search {
+    line-height: 28px !important;
+}
+
+.col-md-10.search_bar_nav {
+    margin: auto;
+    float: inherit;
 }
 
 .top-navigation-menu {
